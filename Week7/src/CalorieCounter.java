@@ -23,6 +23,8 @@ public class CalorieCounter {
         } catch (NumberFormatException nfe) {
             System.out.println("All arguments must be numeric.");
             System.exit(-1);
+            
+            TEST
         }
     }
 }
