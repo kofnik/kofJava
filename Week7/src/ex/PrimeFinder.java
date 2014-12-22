@@ -8,7 +8,7 @@ public class PrimeFinder implements Runnable {
 
     PrimeFinder(long inTarget) throws NegativeNumberException{
         if (inTarget < 0) {
-            NegativeNumberException nne = new NegativeNumberException("Negative numbers are not allowed" + inTarget);
+            NegativeNumberException nne = new NegativeNumberException("Negative numbers are not allowed: " + inTarget);
             throw nne;
         }
         target = inTarget;
